@@ -31,7 +31,7 @@
   transition: all 0.5s ease-in-out;
   height: 140px;
   position: relative;
-  width: 140px;
+  width: 440px;
   margin: 0 auto;
 }
 .page-welcome .logo .scrollNormal {
@@ -40,7 +40,7 @@
   position: absolute;
   top: 0px;
   left: 50%;
-  margin-left: -70px;
+  margin-left: -220px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -2308,15 +2308,15 @@ input[type="checkbox"]:focus {
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: white;
+  color: #cccccc;
 }
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: white;
+  color: #cccccc;
 }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: white;
+  color: #cccccc;
 }
 .radio,
 .checkbox {

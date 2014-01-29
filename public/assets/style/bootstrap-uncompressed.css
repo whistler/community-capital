@@ -599,8 +599,8 @@
 }
 .page-contact form input[type='email'],
 .page-contact form input[type='text'] {
-  background-color: #CCCCCC;
-  color: #666666;
+  background-color: white;
+  color: black;
   font-size: 0.8em;
 }
 .page-contact form input[type='email']:focus,
@@ -608,8 +608,8 @@
   background-color: #fff;
 }
 .page-contact form textarea {
-  background-color: #CCCCCC;
-  color: #666666;
+  background-color: white;
+  color: black;
   font-size: 0.8em;
 }
 .page-contact form textarea:focus {

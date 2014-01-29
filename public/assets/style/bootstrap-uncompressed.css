@@ -603,6 +603,7 @@
   color: black;
   font-size: 0.8em;
 }
+
 .page-contact form input[type='email']:focus,
 .page-contact form input[type='text']:focus {
   background-color: #fff;

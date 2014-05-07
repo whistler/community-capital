@@ -1,11 +1,15 @@
 <div class="well">
-<br/><br/><br/>
-
-<ul class="nav nav-tabs">
-  <li ui-sref="page.investor.search" ui-sref-active="active"><a href="#">Find</a></li>
-  <li ui-sref="page.investor.investments" ui-sref-active="active"><a href="#">My Investments</a></li>
-  <li><a href="#">Messages</a></li>
-</ul>
-
-<div ui-view></div>
+  
+  <div class="small-width">
+    <ul class="nav nav-tabs">
+      <li ui-sref="page.investor.search" ui-sref-active="active"><a href="#">Find</a></li>
+      <li ui-sref="page.investor.investments" ui-sref-active="active"><a href="#">My Investments</a></li>
+    </ul>
+  </div>
+  <!-- PAGE | BLOG -->
+  <div class="pages page-blog-list" id="page-blog-list">
+      <div class="container">
+        <div ui-view></div>
+      </div>
+  </div>
 </div>
